@@ -1,1 +1,41 @@
-ewe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div style="width: 100%;">
+            <input placeholder ="0" ="text" value="" style="height: 50px; width:100%; font-size: 40px;" id="resultado">
+        </div>
+        <div class="borradores">
+            <button id="deletAll">C</button>
+            <button id="deleteStep">=></button>
+        </div>
+        <div class="operadores">
+            <button value="*" >*</button>
+            <button value="+" >+</button>
+            <button value="/" >/</button>
+            <button value="-" >-</button>
+        </div>
+        <div class="numeros">
+            <button value="1" class="btnNum">1</button>
+            <button value="2" class="btnNum">2</button>
+            <button value="3" class="btnNum">3</button>
+            <button value="4" class="btnNum">4</button>
+            <button value="5" class="btnNum">5</button>
+            <button value="6" class="btnNum">6</button>
+            <button value="7" class="btnNum">7</button>
+            <button value="8" class="btnNum">8</button>
+            <button value="9" class="btnNum">9</button>
+            <button value="0" class="btnNum">0</button>
+            <button value="." class="btnNum">.</button>
+            <button value="=" class="btnNum" id="igual">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
