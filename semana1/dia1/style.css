@@ -5,6 +5,12 @@
     align-items: center;
     margin: auto;
 }
+.contentScreen{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    width: 100%;
+    align-items: center;
+}
 .borradores{
     display: flex;
     width: 100%;
